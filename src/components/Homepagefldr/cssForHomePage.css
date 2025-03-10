@@ -1,0 +1,150 @@
+/* 🌍 Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🩸 Navbar (Now Taller & Wider) */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px; /* Increased height */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c0392b; /* Blood red theme */
+  padding: 20px 50px; /* Increased padding */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar .logo h1 {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.infolinks {
+  display: flex;
+  gap: 40px;
+}
+
+.infolinks a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.infolinks a:hover {
+  color: #f7dc6f; /* Soft gold hover */
+}
+
+/* 📂 Sidebar (Narrower) */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 90px; /* Adjusted for new navbar height */
+  width: 120px; /* Reduced width */
+  height: calc(100vh - 90px); /* Adjust height properly */
+  background-color: #922b21; /* Darker blood red */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 900;
+}
+
+/* 🔴 Logout Button */
+.logout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.logout:hover {
+  background-color: #a93226; /* Slightly brighter red */
+  border-radius: 10px;
+}
+
+.logout img {
+  width: 35px;
+}
+
+.logout a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* 🎯 Main Content */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 60px;
+  margin-left: 120px; /* Sidebar width offset */
+  width: calc(100% - 120px); /* Prevent content from shrinking */
+}
+
+/* 🏥 Role Sections */
+.main .seek,
+.main .giver,
+.main .controller {
+  width: 220px; /* Increased width for balance */
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🎭 Individual Styles */
+.seek {
+  background-color: #f9ebea;
+}
+
+.giver {
+  background-color: #f5b7b1;
+}
+
+.controller {
+  background-color: #f2d7d5;
+}
+
+/* 🔥 Hover Effect */
+.seek:hover,
+.giver:hover,
+.controller:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🖼️ Image Styling */
+.main img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.main div:hover img {
+  transform: scale(1.1);
+}

@@ -1,0 +1,110 @@
+/* 🌟 General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🩸 Navbar Styling */
+.homepage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #e60000, #cc0000); /* Red gradient */
+    padding: 15px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.infolinks a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.infolinks a:hover {
+    text-decoration: underline;
+    color: #ffcccc;
+}
+
+/* 📜 Form Section */
+.fillinfo {
+    margin-top: 100px; /* Push content below navbar */
+    padding: 30px;
+    background: white;
+    max-width: 600px;
+    margin: 120px auto; /* Centering */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🏆 Form Fields */
+label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #e60000;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(230, 0, 0, 0.3);
+}
+
+/* 🎯 Select Dropdown */
+.drpdwn, .drpdwn2 {
+    appearance: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.drpdwn:hover, .drpdwn2:hover {
+    border-color: #e60000;
+}
+
+/* 🔴 Button */
+button {
+    width: 100%;
+    background-color: #e60000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);
+}

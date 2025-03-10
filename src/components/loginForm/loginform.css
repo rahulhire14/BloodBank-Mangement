@@ -1,0 +1,98 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f8f9fa; 
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/assets/your-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.log {
+  background-color: white;
+  padding: 50px 60px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.user,
+.passerd {
+  display: flex;
+  align-items: center;
+  background-color: #f2f3f5;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.user img,
+.passerd img {
+  width: 22px;
+  height: 22px;
+}
+
+.username,
+.passwrd {
+  font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.btnfrg {
+  margin-top: 15px;
+}
+
+.btn1 {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: #b71c1c;
+}
+
+.fp {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.fp:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,57 @@
+/* Centered container */
+.donor-container {
+    background: #fff;
+    padding: 40px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 6px solid #d90429; /* Softer red */
+    margin: 100px auto;
+  }
+  
+  /* Title Styling */
+  .donor-container h2 {
+    color: #d90429;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Common Button Styling */
+  .action-btn {
+    width: 45%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Register Button */
+  .register-btn {
+    background: #e63946;
+    color: white;
+  }
+  
+  .register-btn:hover {
+    background: #b22234;
+  }
+  
+  /* Update Button */
+  .update-btn {
+    background: #2a9d8f;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background: #21867a;
+  }
+  

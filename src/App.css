@@ -1,0 +1,66 @@
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/assets/what-do-you-guys-think-about-this-article-v0-vxfvTUEnWbVYEPogQBO6zcQ5m69aTXlD29_o6Qsj9IA.webp");
+
+}
+
+.log {
+  background-color: white;
+  padding: 90px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+.username,
+.passwrd {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.btn1:hover {
+  background-color: #0056b3;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  
+}
+.passerd{
+  display: flex;
+  gap: 10px;
+}
+.btnfrg{
+  gap: 20px;
+}
+.fp{
+  justify-content: first baseline;
+}
